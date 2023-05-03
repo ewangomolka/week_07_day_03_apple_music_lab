@@ -8,7 +8,7 @@ const SongList = ({songs, onSongClicked}) => {
     })
 
     return ( 
-        <div>
+        <div className='song-item'>
             <ul>
             {songItems}
             </ul>
